@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/fall/fall"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff143",
+    "navigationBarTitleText": "FALL",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

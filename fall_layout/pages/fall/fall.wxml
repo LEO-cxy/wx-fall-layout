@@ -1,0 +1,19 @@
+<view style="display:none">
+  <image wx:for="{{images}}" wx:key="id" id="{{item.id}}"  src="{{item.pic}}" bindload="onImageLoad"></image>
+</view>
+  <view bindload="loadImages">
+    <view style="width:100%">
+      <view class="colomn" >
+        <view wx:for="{{col1}}" wx:key="id" class="unit">
+          <image src="{{item.pic}}" style="width:100%;height:{{item.height}}px"></image>
+          <text style="height:5px" >{{item.content}}</text>
+        </view>
+      </view>
+      <view class="colomn">
+        <view wx:for="{{col2}}" wx:key="id" class="unit">
+          <image src="{{item.pic}}" style="width:100%;height:{{item.height}}px"></image>
+          <text style="height:5px" >{{item.content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>

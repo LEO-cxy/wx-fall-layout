@@ -1,0 +1,13 @@
+.colomn {
+  width: 48%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+  background-color:white;
+  padding-bottom: 10px;
+}
+.unit{
+  border-radius: 15px;
+  padding-top: 10px;
+  background-color: #F5F6F7;
+}
